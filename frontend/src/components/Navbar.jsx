@@ -1,12 +1,16 @@
-import { Link } from 'react-router-dom';
-
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom py-3 sticky-top">
       <div className="container">
-        <Link className="navbar-brand fw-bold text-primary d-flex align-items-center" style={{fontFamily:"Times New Roman, Serif"}} to="/">
-          <i className="bi bi-code-slash fs-2 me-2"></i> Rania AH
-        </Link>
+        
+        {/* Brand: Teks biasa, tanpa Link */}
+        <span 
+          className="navbar-brand fw-bold text-primary d-flex align-items-center" 
+          style={{ fontFamily: "Times New Roman, Serif", cursor: "default" }}
+        >
+          <i className="bi bi-code-slash fs-2 me-2"></i> Rania A.
+        </span>
+
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>
         </button>

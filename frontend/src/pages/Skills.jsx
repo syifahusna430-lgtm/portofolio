@@ -98,7 +98,7 @@ const skillCategories = [
   return (
     <section id="skills" className="py-5 bg-white">
       <div className="container py-5 text-center">
-        <h2 className="fw-bold mb-3">My Skills</h2>
+        <h2 className="fw-bold mb-3" style={{ fontFamily: "Times New Roman, Serif" }}>My Skills</h2>
         <p className="text-muted mb-4 mx-auto" style={{ maxWidth: '600px' }}>
           Keahlian teknis yang saya kuasai dan terus kembangkan setiap harinya.
         </p>

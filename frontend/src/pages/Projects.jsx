@@ -3,25 +3,37 @@ import React from 'react';
 const Projects = () => {
     const projects = [
    {
-    title: "Salsabrina Snack",
+    title: "Website Salsabrina Snack",
     description: "Platform toko online (E-Commerce) dengan fitur katalog produk snack box, sistem pemesanan custom, keranjang belanja, dan manajemen pesanan yang terintegrasi.",
     image: "/salna.png",
     link: "https://salna.my.id"
   },
   {
-    title: "Sistem Tugas",
-    description: "Platform manajemen tugas akademik (Task Management System) dengan fitur pelacakan deadline, pengaturan prioritas tugas, monitoring progres pengerjaan, dan notifikasi pengingat yang terintegrasi.",
+    title: "RANIA KNIT",
+    description: "Platform digital untuk memperkenalkan koleksi produk rajut dengan tampilan yang menarik dan nyaman untuk dijelajahi.",
+    image: "/raniaknit.png",
+    link: "https://test.salna.my.id"
+  },
+  {
+    title: "Personal Portfolio Website",
+    description: "Website portfolio pribadi yang digunakan untuk menampilkan project, karya coding, dan berbagai hasil pengembangan website selama proses belajar dan PKL.",
+    image: "/pkl.png",
+    link: "https://porto.salna.my.id/"
+  },
+  {
+    title: "Sistem Manajemen Tugas",
+    description: "Kelola dan pantau seluruh tugas dalam satu platform. Atur deadline, perbarui status, dan pastikan setiap tugas selesai tepat waktu.",
     image: "/data tugas.png",
     link: "#"
   },
   {
-    title: "Mading Online",
+    title: "Website Mading Online",
     description: "Platform majalah dinding digital (Content Management System) dengan fitur publikasi artikel, kategorisasi rubrik, manajemen berita sekolah, dan galeri prestasi siswa yang terintegrasi.",
     image: "/mading.png",
     link: "#"
   },
   {
-    title: "Cakrawala News",
+    title: "Website Cakrawala News",
     description: "Portal berita online (News Portal) dengan fitur manajemen artikel, kategorisasi berita, pencarian konten, dan tampilan headline responsif yang terintegrasi.",
     image: "/news.png",
     link: "#"
@@ -35,8 +47,8 @@ const Projects = () => {
         {/* HEADER */}
         <div className="row mb-5">
           <div className="col-lg-8">
-            <h2 className="fw-bold mb-4 position-relative pb-3">
-              Featured Projects
+            <h2 className="fw-bold mb-4 position-relative pb-3" style={{ fontFamily: "Times New Roman, Serif" }}>
+              Projects
               <span className="position-absolute bottom-0 start-0 bg-primary rounded" style={{ width: '60px', height: '4px' }}></span>
             </h2>
             <p className="text-muted mb-0 pe-lg-5">
@@ -69,7 +81,7 @@ const Projects = () => {
                 {/* ============================================= */}
 
                 <div className="card-body p-4 d-flex flex-column">
-                  <h4 className="fw-bold mb-3" style={{ color: '#1a1a1a' }}>
+                  <h4 className="fw-bold mb-3" style={{ color: '#1a1a1a',fontFamily: "Times New Roman, Serif" }} >
                     {project.title}
                   </h4>
                   
@@ -84,7 +96,7 @@ const Projects = () => {
                     className="text-dark text-decoration-none d-flex align-items-center gap-2 mt-auto fw-bold"
                     style={{ fontSize: '0.85rem', letterSpacing: '0.5px' }}
                   >
-                    VIEW PROJECT <i className="bi bi-arrow-right"></i>
+                    Lihat Proyek <i className="bi bi-arrow-right"></i>
                   </a>
                 </div>
               </div>

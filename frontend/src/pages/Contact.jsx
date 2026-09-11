@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h6 className="fw-bold mb-1">Email Saya</h6>
-                  <p className="text-muted mb-0">hello@yourname.com</p>
+                  <p className="text-muted mb-0">rania.asyifaul@smk.belajar.id</p>
                 </div>
               </div>
               <div className="d-flex align-items-center gap-4">
@@ -29,7 +29,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h6 className="fw-bold mb-1">Lokasi</h6>
-                  <p className="text-muted mb-0">Jakarta, Indonesia (Tersedia untuk Remote)</p>
+                  <p className="text-muted mb-0">Jl. Raya Ngebel, Kemiri, Kec. Jenangan, Kabupaten Ponorogo, Jawa Timur</p>
                 </div>
               </div>
             </div>
@@ -42,20 +42,20 @@ const Contact = () => {
                 <div className="row g-4 mb-4">
                   <div className="col-md-6">
                     <label className="form-label fw-medium text-muted small">Nama Lengkap</label>
-                    <input type="text" className="form-control bg-light border-0 py-2" placeholder="John Doe" />
+                    <input type="text" className="form-control bg-light border-0 py-2"/>
                   </div>
                   <div className="col-md-6">
                     <label className="form-label fw-medium text-muted small">Alamat Email</label>
-                    <input type="email" className="form-control bg-light border-0 py-2" placeholder="john@example.com" />
+                    <input type="email" className="form-control bg-light border-0 py-2"/>
                   </div>
                 </div>
                 <div className="mb-4">
                   <label className="form-label fw-medium text-muted small">Subjek</label>
-                  <input type="text" className="form-control bg-light border-0 py-2" placeholder="Tanya tentang proyek..." />
+                  <input type="text" className="form-control bg-light border-0 py-2"/>
                 </div>
                 <div className="mb-4">
                   <label className="form-label fw-medium text-muted small">Pesan Anda</label>
-                  <textarea className="form-control bg-light border-0 py-2" rows="5" placeholder="Halo, saya ingin mendiskusikan..."></textarea>
+                  <textarea className="form-control bg-light border-0 py-2" rows="5"></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary w-100 py-3 rounded-3 fw-medium d-flex align-items-center justify-content-center gap-2">
                   Kirim Pesan <i className="bi bi-send"></i>

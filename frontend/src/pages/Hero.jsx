@@ -1,4 +1,6 @@
 import React from 'react';
+// Import Link (meski belum dipakai, supaya Anda tahu cara import-nya)
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   // --- SVG ICON GITHUB ---
@@ -22,28 +24,25 @@ const Hero = () => {
           
           {/* Kolom Kiri: Teks */}
           <div className="col-lg-6 mb-5 mb-lg-0">
-            <span className="badge bg-primary-subtle text-primary rounded-pill px-3 py-2 mb-3 fw-medium">
-              HELLO, I'M
+            <span className="badge bg-primary-subtle text-primary rounded-pill px-3 py-2 mb-3 fw-medium fs-3" style={{ fontFamily: "Times New Roman, Serif" }}>
+              HALO, SAYA
             </span>
-            <h1 className="display-5 fw-bold mb-3 text-dark" style={{fontFamily: "Times New Roman, Serif"}}>RANIA ASYIFAUL HUSNA</h1>
+            <h1 className="display-6 fw-bold mb-3 text-dark" style={{ fontFamily: "Times New Roman, Serif" }}>
+              RANIA ASYIFAUL HUSNA
+            </h1>
             <h3 className="text-primary mb-4 fw-semibold" style={{ lineHeight: '1.5' }}>
-              Junior Developer & Software<br />Engineering Student
+              Junior Web Developer & Software<br />Engineering Student
             </h3>
             <p className="text-muted mb-5 pe-lg-5">
-              Berfokus pada membangun pengalaman digital yang bersih, efisien, dan ramah pengguna. Saat ini sedang mendalami pengembangan Full-stack dan Arsitektur Perangkat Lunak.
+              Memiliki ketertarikan dalam pengembangan website dan teknologi perangkat lunak. Terus belajar dan mengembangkan kemampuan dalam membangun website yang responsif, fungsional, dan memiliki tampilan yang menarik dengan menerapkan teknologi web modern.
             </p>
             <div className="d-flex gap-3 mb-5">
-              <a href="#projects" className="btn btn-primary px-4 py-2 fw-medium rounded-3">View My Projects</a>
+              {/* Link anchor ke section #projects di halaman ini → tetap pakai <a> */}
+              <a href="#projects" className="btn btn-primary px-4 py-2 fw-medium rounded-3">
+                Lihat project
+              </a>
             </div>
             <div className="d-flex align-items-center gap-4 text-muted">
-              <div className="d-flex gap-3">
-                <a href="#" className="text-muted" aria-label="Github">
-                  <GithubIcon size={24} />
-                </a>
-                <a href="#" className="text-muted" aria-label="LinkedIn">
-                  <LinkedinIcon size={24} />
-                </a>
-              </div>
               <div className="d-flex align-items-center gap-2 small fw-medium tracking-wide">
                 <span>SCROLLING DOWN</span>
                 <div style={{ width: '40px', height: '1px', backgroundColor: '#ccc' }}></div>
@@ -54,13 +53,12 @@ const Hero = () => {
           {/* Kolom Kanan: Gambar dari Public */}
           <div className="col-lg-6 text-center">
             <img 
-              src="/orng.jpg" 
+              src="/aku.jpeg" 
               alt="Profile" 
               className="img-fluid rounded-4 shadow-lg" 
               style={{ maxHeight: '550px', objectFit: 'cover' }}
             />
           </div>
-
         </div>
       </div>
     </section>

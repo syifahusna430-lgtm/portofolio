@@ -98,14 +98,14 @@ const About = () => {
   return (
     <section id="about" className="py-5 bg-light">
       <div className="container py-5">
-        <h2 className="fw-bold mb-4 position-relative pb-3">
+        <h2 className="fw-bold mb-4 position-relative pb-3"style={{ fontFamily: "Times New Roman, Serif" }}>
           About me
           <span className="position-absolute bottom-0 start-0 bg-primary rounded" style={{ width: '60px', height: '4px' }}></span>
         </h2>
         
         <div className="row mt-5">
           <div className="col-lg-6 mb-5 mb-lg-0 pe-lg-5">
-            <h3 className="fw-bold mb-4 text-dark" style={{ lineHeight: '1.4' }}>
+            <h3 className="fw-bold mb-4 text-dark" style={{ lineHeight: '1.4',fontFamily: "Times New Roman, Serif" }}>
               Semangat Belajar dan Berkarya di Dunia Teknologi
             </h3>
             <p className="text-muted mb-4">
@@ -162,7 +162,7 @@ const About = () => {
                   </div>
                   <div>
                     <h5 className="fw-bold mb-2">Email</h5>
-                    <p className="text-muted mb-0 small">rniasyfa@gmail.com</p>
+                    <p className="text-muted mb-0 small">rania.asyifaul@smk.belajar.id</p>
                   </div>
                 </div>
               </div>
