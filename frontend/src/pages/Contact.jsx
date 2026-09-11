@@ -32,8 +32,8 @@ const Contact = () => {
     </svg>
   );
 
-  // --- SVG ICON LOKASI (Map Pin) ---
-  const LocationIcon = ({ size = 24, className = "" }) => (
+  // --- SVG ICON WHATSAPP ---
+  const WhatsAppIcon = ({ size = 24, className = "" }) => (
     <svg
       width={size}
       height={size}
@@ -43,16 +43,14 @@ const Contact = () => {
       className={className}
     >
       <path
-        d="M12 22C12 22 20 15.5 20 10C20 5.58172 16.4183 2 12 2C7.58172 2 4 5.58172 4 10C4 15.5 12 22 12 22Z"
+        d="M17.472 14.382C17.202 14.247 15.787 13.554 15.539 13.462C15.291 13.37 15.111 13.323 14.931 13.592C14.751 13.862 14.204 14.506 14.046 14.686C13.888 14.866 13.73 14.889 13.46 14.754C13.19 14.619 12.263 14.315 11.165 13.336C10.31 12.573 9.733 11.63 9.575 11.36C9.417 11.09 9.558 10.944 9.693 10.809C9.814 10.688 9.963 10.494 10.098 10.336C10.233 10.178 10.278 10.064 10.37 9.884C10.462 9.704 10.416 9.546 10.348 9.411C10.281 9.276 9.709 7.859 9.483 7.319C9.263 6.794 9.039 6.864 8.872 6.856C8.713 6.849 8.531 6.847 8.35 6.847C8.169 6.847 7.875 6.915 7.626 7.185C7.377 7.455 6.612 8.169 6.612 9.63C6.612 11.091 7.658 12.504 7.797 12.691C7.936 12.879 9.718 15.625 12.446 16.804C13.095 17.084 13.602 17.252 13.997 17.378C14.649 17.586 15.242 17.556 15.711 17.487C16.234 17.409 17.388 16.779 17.614 16.089C17.84 15.399 17.84 14.809 17.772 14.687C17.705 14.565 17.524 14.498 17.255 14.362L17.472 14.382Z"
         stroke="currentColor"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle
-        cx="12"
-        cy="10"
-        r="3"
+      <path
+        d="M12 2C6.477 2 2 6.477 2 12C2 13.845 2.5 15.573 3.374 17.063L2 22L7.108 20.657C8.562 21.507 10.233 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z"
         stroke="currentColor"
         strokeWidth="2"
         strokeLinecap="round"
@@ -103,8 +101,11 @@ const Contact = () => {
             </p>
 
             <div className="d-flex flex-column gap-4 mb-5">
-              {/* Email */}
-              <div className="d-flex align-items-center gap-4">
+              {/* Email - BISA DIKLIK */}
+              <a 
+                href="mailto:rania.asyifaul@smk.belajar.id" 
+                className="d-flex align-items-center gap-4 text-decoration-none"
+              >
                 <div 
                   className="bg-primary-subtle text-primary rounded-3 d-flex align-items-center justify-content-center" 
                   style={{ width: '60px', height: '60px', minWidth: '60px' }}
@@ -112,24 +113,29 @@ const Contact = () => {
                   <EmailIcon size={26} />
                 </div>
                 <div>
-                  <h6 className="fw-bold mb-1">Email Saya</h6>
+                  <h6 className="fw-bold mb-1 text-dark">Email Saya</h6>
                   <p className="text-muted mb-0">rania.asyifaul@smk.belajar.id</p>
                 </div>
-              </div>
+              </a>
 
-              {/* Lokasi */}
-              <div className="d-flex align-items-center gap-4">
+              {/* WhatsApp - BISA DIKLIK */}
+              <a 
+                href="https://wa.me/6285704634951" 
+                target="_blank" 
+                rel="noreferrer"
+                className="d-flex align-items-center gap-4 text-decoration-none"
+              >
                 <div 
                   className="bg-primary-subtle text-primary rounded-3 d-flex align-items-center justify-content-center" 
                   style={{ width: '60px', height: '60px', minWidth: '60px' }}
                 >
-                  <LocationIcon size={26} />
+                  <WhatsAppIcon size={26} />
                 </div>
                 <div>
-                  <h6 className="fw-bold mb-1">Lokasi</h6>
-                  <p className="text-muted mb-0">Jl. Raya Ngebel, Kemiri, Kec. Jenangan, Kabupaten Ponorogo, Jawa Timur</p>
+                  <h6 className="fw-bold mb-1 text-dark">WhatsApp</h6>
+                  <p className="text-muted mb-0">085704634951</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 
