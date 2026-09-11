@@ -86,7 +86,7 @@ const skillCategories = [
     {
       title: "Backend Development",
       icon:  <ServerIcon size={24} />,
-      skills: ["PHP", "Node.js", "Express.js", "Python", "Java", "REST API", "JWT", "Bcrypt"]
+      skills: ["PHP", "Node.js", "Express.js", "Python","REST API", "JWT", "Bcrypt"]
     },
     {
       title: "Database & Tools",
