@@ -99,7 +99,7 @@ const About = () => {
     <section id="about" className="py-5 bg-light">
       <div className="container py-5">
         <h2 className="fw-bold mb-4 position-relative pb-3"style={{ fontFamily: "Times New Roman, Serif" }}>
-          About me
+         Tentang
           <span className="position-absolute bottom-0 start-0 bg-primary rounded" style={{ width: '60px', height: '4px' }}></span>
         </h2>
         
@@ -109,7 +109,7 @@ const About = () => {
               Semangat Belajar dan Berkarya di Dunia Teknologi
             </h3>
             <p className="text-muted mb-4">
-              Saya Rania Asyifaul Husna siswa Rekayasa Perangkat Lunak SMK Negeri 1 Jenangan Ponorogo, jurusan Rekayasa Perangkat Lunak, yang memiliki ketertarikan pada dunia teknologi, khususnya dalam pengembangan website. Saya senang mempelajari hal-hal baru dan terus mengembangkan kemampuan dalam membuat website yang menarik, responsif, dan mudah digunakan.
+              Saya Rania Asyifaul Husna siswa Rekayasa Perangkat Lunak SMK Negeri 1 Jenangan Ponorogo, yang memiliki ketertarikan pada dunia teknologi, khususnya dalam pengembangan website. Saya senang mempelajari hal-hal baru dan terus mengembangkan kemampuan dalam membuat website yang menarik, responsif, dan mudah digunakan.
             </p>
             <p className="text-muted mb-5">
               Bagi saya, setiap proyek merupakan kesempatan untuk belajar, mencoba hal baru, dan meningkatkan kemampuan. Saya percaya bahwa kemampuan tidak hanya dibangun dari teori, tetapi juga dari proses mencoba, menghadapi kesalahan, dan terus memperbaikinya. Karena itu, saya selalu berusaha memberikan hasil terbaik dalam setiap proyek yang saya kerjakan dan menjadikan setiap pengalaman sebagai langkah untuk berkembang, belajar lebih banyak, dan menghasilkan karya yang lebih baik.

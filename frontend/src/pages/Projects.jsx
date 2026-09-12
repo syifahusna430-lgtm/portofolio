@@ -48,7 +48,7 @@ const Projects = () => {
         <div className="row mb-5">
           <div className="col-lg-8">
             <h2 className="fw-bold mb-4 position-relative pb-3" style={{ fontFamily: "Times New Roman, Serif" }}>
-              Projects
+              Project Saya
               <span className="position-absolute bottom-0 start-0 bg-primary rounded" style={{ width: '60px', height: '4px' }}></span>
             </h2>
             <p className="text-muted mb-0 pe-lg-5">

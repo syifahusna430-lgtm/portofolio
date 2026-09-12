@@ -21,8 +21,6 @@ const Hero = () => {
     <section id="home" className="py-5 bg-light">
       <div className="container py-5">
         <div className="row align-items-center">
-          
-          {/* Kolom Kiri: Teks */}
           <div className="col-lg-6 mb-5 mb-lg-0">
             <span className="badge bg-primary-subtle text-primary rounded-pill px-3 py-2 mb-3 fw-medium fs-3" style={{ fontFamily: "Times New Roman, Serif" }}>
               HALO, SAYA
@@ -50,7 +48,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Kolom Kanan: Gambar dari Public */}
           <div className="col-lg-6 text-center">
             <img 
               src="/aku.jpeg" 

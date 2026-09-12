@@ -92,8 +92,8 @@ const Contact = () => {
         <div className="row">
           {/* Kolom Kiri: Info Kontak */}
           <div className="col-lg-5 mb-5 mb-lg-0 pe-lg-5">
-            <h2 className="fw-bold mb-4 position-relative pb-3">
-              Let's Work Together
+            <h2 className="fw-bold mb-4 position-relative pb-3"style={{ fontFamily: "Times New Roman, Serif" }}>
+              Hubungi Kami
               <span className="position-absolute bottom-0 start-0 bg-primary rounded" style={{ width: '60px', height: '4px' }}></span>
             </h2>
             <p className="text-muted mb-5">
