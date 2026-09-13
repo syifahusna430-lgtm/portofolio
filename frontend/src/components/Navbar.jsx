@@ -11,10 +11,11 @@ const Navbar = () => {
         </span>
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav gap-4">
-            <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-            <li className="nav-item"><a className="nav-link" href="#skills">Skills</a></li>
-            <li className="nav-item"><a className="nav-link" href="#projects">Projects</a></li>
-            <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
+            <li className="nav-item"><a className="nav-link" href="#beranda">Beranda</a></li>
+            <li className="nav-item"><a className="nav-link" href="#tentang">Tentang</a></li>
+            <li className="nav-item"><a className="nav-link" href="#keahlian">Keahlian</a></li>
+            <li className="nav-item"><a className="nav-link" href="#proyek">Proyek</a></li>
+            <li className="nav-item"><a className="nav-link" href="#kontak">Kontak</a></li>
           </ul>
         </div>
       </div>
