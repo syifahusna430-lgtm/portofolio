@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Kontak = () => {
+const Contact = () => {
   // --- SVG ICON EMAIL (Amplop) ---
   const EmailIcon = ({ size = 24, className = "" }) => (
     <svg
