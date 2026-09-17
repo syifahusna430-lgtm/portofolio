@@ -6,17 +6,17 @@ const Pendidikan = () => {
     {
       jenjang: "SMK Negeri 1 Jenangan",
       jurusan: "Rekayasa Perangkat Lunak (RPL)",
-      tahun: "2023 - Sekarang",
+      tahun: "2024 - Sekarang",
       deskripsi: "Mempelajari pemrograman web, mobile, basis data, dan rekayasa perangkat lunak.",
     },
     {
       jenjang: "Mts Muhammadiyah 1 Jenangan",
-      tahun: "2020 - 2023",
+      tahun: "2021 - 2023",
       deskripsi: "Menyelesaikan pendidikan menengah pertama dengan fokus pada dasar-dasar ilmu pengetahuan.",
     },
     {
       jenjang: "SD Negeri 1 Kemiri",
-      tahun: "2014 - 2020",
+      tahun: "2015 - 2020",
       deskripsi: "Menyelesaikan pendidikan dasar dengan prestasi akademik yang baik.",
     }
   ];
