@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <section id="tentang" className="py-5" style={{ backgroundColor: '#1e293b' }}>
-      <div className="container py-2">
+      <div className="container py-1">
         <h2 
           className="fw-bold mb-4 position-relative pb-3" 
           style={{ fontFamily: "Times New Roman, Serif", color: '#f1f5f9' }}

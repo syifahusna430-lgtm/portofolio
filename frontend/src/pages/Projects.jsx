@@ -41,7 +41,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-5" style={{ backgroundColor: '#0f172a' }}>
+    <section id="projects" className="py-4" style={{ backgroundColor: '#0f172a' }}>
       <div className="container py-5">
         
         <div className="row mb-4">
