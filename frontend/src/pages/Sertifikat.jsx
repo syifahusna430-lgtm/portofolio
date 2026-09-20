@@ -14,7 +14,7 @@ const Sertifikat = () => {
     {
       nama: "Praktik Kerja Lapangan (PKL)",
       penerbit: "Degeweb",
-      tahun: "18 Septemer 2026",
+      tahun: "18 September 2026",
       image: "sertidg.jpeg"
     }
   ];
@@ -36,7 +36,7 @@ const Sertifikat = () => {
             <div className="col-lg-4 col-md-6 col-12" key={index}>
               <div className="sertifikat-card h-100">
                 
-                {/* GAMBAR */}
+                {/* GAMBAR FULL TANPA RUANG PUTIH */}
                 <div 
                   className="sertifikat-image-wrapper"
                   onClick={() => openModal(item.image)}
@@ -98,26 +98,25 @@ const Sertifikat = () => {
         }
 
         /* ==========================================
-           GAMBAR FULL TANPA JARAK
+           GAMBAR FULL - TANPA RUANG PUTIH
            ========================================== */
         .sertifikat-image-wrapper {
           position: relative;
           width: 100%;
           height: 220px;
           padding: 0;
-          background: #ffffff;
+          background: #0f172a;          /* <-- GELAP (bukan putih) */
           cursor: pointer;
           display: flex;
           align-items: center;
           justify-content: center;
           overflow: hidden;
-          border-bottom: 1px solid #334155;
         }
 
         .sertifikat-image {
           width: 100%;
           height: 100%;
-          object-fit: contain;
+          object-fit: cover;             /* <-- ISI PENUH, crop jika perlu */
           object-position: center;
           display: block;
           transition: transform 0.4s ease;
@@ -130,6 +129,7 @@ const Sertifikat = () => {
         /* Body */
         .sertifikat-body {
           padding: 18px 22px;
+          border-top: 1px solid #334155;  /* Garis pemisah antara gambar & teks */
         }
 
         .sertifikat-title {
