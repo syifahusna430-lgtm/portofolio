@@ -14,8 +14,8 @@ const Sertifikat = () => {
     {
       nama: "Praktik Kerja Lapangan (PKL)",
       penerbit: "Degeweb",
-      tahun: "belum terbit",
-      image: ".jpeg"
+      tahun: "18 Septemer 2026",
+      image: "sertidg.jpeg"
     }
   ];
 
